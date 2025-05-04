@@ -3,10 +3,24 @@
         <a href="{{ site.baseurl }}/" class="logo">{{ site.title }}</a>
         <nav>
             <ul>
-                <li><a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-                <li><a href="{{ site.baseurl }}/collections" {% if page.url == "/collections/" %}class="active"{% endif %}>Collections</a></li>
-                <li><a href="{{ site.baseurl }}/about" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-                <li><a href="{{ site.baseurl }}/contact" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
+                <!-- Always show the Galleries link -->
+                <li>
+                    <a href="{{ site.baseurl }}/galleries/" {% if page.url == "/galleries/" %}class="active"{% endif %}>
+                        Galleries
+                    </a>
+                </li>
+                
+                <!-- Auto-generate navigation for pages with nav_include: true -->
+                {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+                {% for my_page in sorted_pages %}
+                    {% if my_page.title and my_page.nav_include == true %}
+                        <li>
+                            <a href="{{ my_page.url | relative_url }}" {% if page.url == my_page.url %}class="active"{% endif %}>
+                                {{ my_page.title }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
         </nav>
     </div>

@@ -2,6 +2,8 @@
 layout: default
 title: About Our Gallery
 description: Learn more about our photography gallery and mission.
+nav_include: true
+nav_order: 2
 ---
 
 <div class="about-container">
