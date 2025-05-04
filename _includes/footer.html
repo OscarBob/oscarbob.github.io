@@ -1,0 +1,27 @@
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are passionate about photography and sharing beautiful images with the world.</p>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: {{ site.email }}</p>
+            <p>Phone: {{ site.phone }}</p>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="{{ site.social.instagram }}">Instagram</a>
+                <a href="{{ site.social.facebook }}">Facebook</a>
+                <a href="{{ site.social.twitter }}">Twitter</a>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>{{ site.copyright }}</p>
+        </div>
+    </div>
+</footer>

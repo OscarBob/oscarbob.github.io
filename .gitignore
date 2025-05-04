@@ -1,0 +1,16 @@
+Gemfile.lock
+
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby environment
+.bundle/
+vendor/
+
+# Development files
+.DS_Store
+*.swp
+*~
