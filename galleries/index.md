@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Photo Galleries
+title: Gallery
 description: Browse our collection of photo galleries
 ---
 
@@ -12,7 +12,7 @@ description: Browse our collection of photo galleries
         <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/nature">
                 <img src="{{ site.baseurl }}/assets/images/nature/thumbnail.jpg" alt="Nature Gallery">
-                <h2>Nature Gallery</h2>
+                <h2>London Faces</h2>
                 <p>Beautiful photographs showcasing the natural world</p>
             </a>
         </div>

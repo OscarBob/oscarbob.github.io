@@ -3,17 +3,9 @@
         <a href="{{ site.baseurl }}/" class="logo">{{ site.title }}</a>
         <nav>
             <ul>
-                <!-- Always show the Galleries link -->
-                <li>
-                    <a href="{{ site.baseurl }}/galleries/" {% if page.url == "/galleries/" %}class="active"{% endif %}>
-                        Galleries
-                    </a>
-                </li>
-                
-                <!-- Auto-generate navigation for pages with nav_include: true -->
                 {% assign sorted_pages = site.pages | sort: 'nav_order' %}
                 {% for my_page in sorted_pages %}
-                    {% if my_page.title and my_page.nav_include == true %}
+                    {% if my_page.title and my_page.nav_exclude != true %}
                         <li>
                             <a href="{{ my_page.url | relative_url }}" {% if page.url == my_page.url %}class="active"{% endif %}>
                                 {{ my_page.title }}
