@@ -2,7 +2,7 @@
 layout: default
 title: News
 description: Learn more about our photography gallery and mission.
-nav_include: true
+nav_exclude: true
 nav_order: 2
 ---
 

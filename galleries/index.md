@@ -1,35 +1,43 @@
 ---
 layout: default
 title: Gallery
-description: Browse our collection of photo galleries
+description: A gallery of Miranda's work
 ---
 
 <section class="gallery-index">
     <h1>{{ page.title }}</h1>
     <p>{{ page.description }}</p>
-    
+    <h2>Paintings</h2>
     <div class="gallery-list">
         <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/nature">
-                <img src="{{ site.baseurl }}/assets/images/nature/thumbnail.jpg" alt="Nature Gallery">
+                <img src="/images/london_faces/outputfig.png">
                 <h2>London Faces</h2>
-                <p>Beautiful photographs showcasing the natural world</p>
+                <p></p>
             </a>
         </div>
         
         <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/architecture">
-                <img src="{{ site.baseurl }}/assets/images/architecture/thumbnail.jpg" alt="Architecture Gallery">
-                <h2>Architecture Gallery</h2>
-                <p>Stunning architectural photography from around the world</p>
+                <img src="{{ site.baseurl }}/assets/images/architecture/thumbnail.jpg">
+                <h2>Landscapes</h2>
+                <p></p>
             </a>
         </div>
         
         <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/people">
-                <img src="{{ site.baseurl }}/assets/images/people/thumbnail.jpg" alt="People Gallery">
-                <h2>People Gallery</h2>
-                <p>Portraits and candid photography of people</p>
+                <img src="{{ site.baseurl }}/assets/images/people/thumbnail.jpg">
+                <h2>Portraits From Life</h2>
+                <p></p>
+            </a>
+        </div>
+
+        <div class="gallery-preview">
+            <a href="{{ site.baseurl }}/galleries/people">
+                <img src="{{ site.baseurl }}/assets/images/people/thumbnail.jpg">
+                <h2>Archive</h2>
+                <p></p>
             </a>
         </div>
     </div>
