@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About Our Gallery
-description: Learn more about our photography gallery and mission.
+title: 
+description: 
 nav_exclude: true
 ---
 

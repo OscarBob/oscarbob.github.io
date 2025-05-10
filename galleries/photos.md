@@ -1,7 +1,8 @@
 ---
 layout: gallery
-title: London Faces
+title: Photographs
 description: Placeholder pictures from Oscar's disseration in York.
 gallery_folder: images/london_faces
-nav_exclude: true
+nav_exclude: false
+nav_order: 2
 ---
