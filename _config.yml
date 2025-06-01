@@ -14,16 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Miranda Benzies
-email: mfgillett@gmail.com
-tel: 07840046363
 social:
   facebook: https://www.facebook.com/mirandamantlepiece
   twitter: https://twitter.com/wizconda
 description: >- # this means to ignore newlines until "baseurl:"
   This is a website to commemorate Miranda Benzies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://oscarbob.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+url: "https://mirandabenzies.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  oscarbob
 
 # Build settings
