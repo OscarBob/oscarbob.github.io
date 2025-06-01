@@ -625,3 +625,96 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.footer-form {
+  margin-top: 0.5rem;
+}
+
+.footer-form .form-group {
+  margin-bottom: 0.5rem;
+}
+
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #333;
+  color: #ddd;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.footer-form input::placeholder,
+.footer-form textarea::placeholder {
+  color: #999;
+}
+
+.footer-form input:focus,
+.footer-form textarea:focus {
+  background-color: #444;
+  outline: none;
+}
+
+.footer-form textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+.footer-submit {
+    background: linear-gradient(135deg, #888, #555);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(136, 136, 136, 0.3);
+    margin-top: 0.5rem;
+  }
+  
+  .footer-submit:hover {
+    background: linear-gradient(135deg, #555, #333);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(136, 136, 136, 0.4);
+  }
+  
+  .footer-submit:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(136, 136, 136, 0.3);
+  }
+  
+  .footer-submit:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
+  }
+  
+  .footer-submit:hover:before {
+    left: 100%;
+  }
+
+/* Responsive adjustments for the footer form */
+@media (max-width: 768px) {
+  .footer-form textarea {
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section {
+    min-width: 100%;
+  }
+}

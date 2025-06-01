@@ -9,8 +9,24 @@
         <div class="footer-section">
             <h3>Contact</h3>
             <p>If you would like to order a print, or wish to see the full list of available prints please contact Matt:</p>
-            <p>Email: {{ site.email }}</p>
-            <p>Phone: {{ site.tel }}</p>
+            <form
+                action="https://formspree.io/f/xeogvbyv"
+                method="POST"
+                class="footer-form"
+            >
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+
+                <!-- your other form fields go here -->
+                <button type="submit" class="footer-submit">Send</button>
+    
+            </form>
         </div>
         
         <div class="footer-section-small">
