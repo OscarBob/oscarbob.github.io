@@ -11,16 +11,16 @@ nav_order: 1
     <h2>Paintings</h2>
     <div class="gallery-list">
         <div class="gallery-preview">
-            <a href="{{ site.baseurl }}/galleries/nature">
-                <img src="/images/london_faces/outputfig.png">
+            <a href="{{ site.baseurl }}/galleries/london_faces">
+                <img src="images/London_Faces/LF1_London Face.jpg">
                 <h2>London Faces</h2>
                 <p></p>
             </a>
         </div>
         
         <div class="gallery-preview">
-            <a href="{{ site.baseurl }}/galleries/architecture">
-                <img src="{{ site.baseurl }}/assets/images/architecture/thumbnail.jpg">
+            <a href="{{ site.baseurl }}/galleries/nature_returns">
+                <img src="/images/Nature_Returns/NR1_Sea painting.jpg">
                 <h2>Landscapes</h2>
                 <p></p>
             </a>
