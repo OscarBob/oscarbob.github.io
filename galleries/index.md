@@ -25,4 +25,3 @@ nav_order: 1
                 <p></p>
             </a>
         </div>
-</section>
