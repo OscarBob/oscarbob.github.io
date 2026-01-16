@@ -1,8 +1,8 @@
 ---
 layout: gallery
 title: Photographs
-description: Placeholder pictures from Oscar's disseration in York.
-gallery_folder: images/london_faces
+description: Photo's currently unavailable.
+gallery_folder: images/photos
 nav_exclude: false
 nav_order: 2
 ---
