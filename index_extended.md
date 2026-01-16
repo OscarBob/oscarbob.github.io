@@ -3,6 +3,7 @@ layout: default
 title: Gallery
 description: Miranda's work
 nav_order: 1
+nav_exclude: true
 ---
 
 <section class="gallery-index">
