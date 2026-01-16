@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gallery
-description: A gallery of Miranda's work
+description: Miranda's work
 nav_order: 1
 ---
 
