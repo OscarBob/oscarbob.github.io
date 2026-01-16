@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Gallery
-description: Miranda's work
+description: Paintings
 nav_order: 1
 ---
 
 <section class="gallery-index">
     <h1>{{ page.title }}</h1>
     <p>{{ page.description }}</p>
-    <h2>Paintings</h2>
     <div class="gallery-list">
         <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/london_faces">
