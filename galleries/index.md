@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Gallery
-description: Paintings
 nav_order: 1
 ---
 
