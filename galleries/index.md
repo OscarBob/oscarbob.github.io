@@ -26,7 +26,7 @@ nav_order: 1
             </a>
         </div>
         
-        <div class="gallery-preview">
+        <!-- <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/people">
                 <img src="{{ site.baseurl }}/assets/images/people/thumbnail.jpg">
                 <h2>Portraits From Life</h2>
@@ -42,6 +42,7 @@ nav_order: 1
             </a>
         </div>
     </div>
+
 </section>
 
 <section class="gallery-index">
@@ -78,6 +79,6 @@ nav_order: 1
                 <p></p>
             </a>
         </div>
-    </div>
-</section>
+    </div> -->
 
+</section>
