@@ -21,7 +21,7 @@ nav_order: 1
         <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/nature_returns">
                 <img src="/images/Nature_Returns/NR1_Sea painting.jpg">
-                <h2>Landscapes</h2>
+                <h2>Nature Returns</h2>
                 <p></p>
             </a>
         </div>
