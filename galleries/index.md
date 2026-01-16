@@ -12,7 +12,7 @@ nav_order: 1
     <div class="gallery-list">
         <div class="gallery-preview">
             <a href="{{ site.baseurl }}/galleries/london_faces">
-                <img src="images/London_Faces/LF1_London Face.jpg">
+                <img src="images/London_Faces/LF1_London_Face.jpg">
                 <h2>London Faces</h2>
                 <p></p>
             </a>
